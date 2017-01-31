@@ -1,0 +1,107 @@
+/***************** Palette ********************
+
+
+|---- Code -------|----- Couleur -----
+	#e3f2fd 			blue lighten-5
+
+*/
+
+
+/****************** Base ********************/
+
+/* Global */
+
+#ButtonModification {
+	background-color: #01579b;
+	opacity: 2 !important;
+}
+
+#ButtonNew {
+	background-color: #607d8b;
+}
+
+
+/***************** HomePage *****************/
+
+#HomePageImage{
+  background: url(./../img/img_HomePage.jpg) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour Chrome et Safari */
+  -moz-background-size: cover; /* pour Firefox */
+  -o-background-size: cover; /* pour Opera */
+  background-size: cover; /* version standardisée */
+}
+
+#HomePageBox {
+	margin-left: 1%;
+	margin-top: 7%;
+	width: 60%;
+	height: auto;
+}
+
+#HomePageText {
+	font-family: fantasy, Charcoal, sans-serif;
+	font-size: 100%;
+	color: #37474f !important ;
+	text-align: center;
+}
+
+#HomePageForm {
+	border: 2px solid #6d4c41;
+	background-color: #b0bec5;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	padding-top: 3%;
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-bottom: 3%;
+	color: #01579b;
+	opacity: 0.98;
+}
+
+
+/***************** Navbar *****************/
+
+#NavbarImage {
+	background: url(./../img/img_HomePage.jpg) no-repeat center fixed;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+	-moz-background-size: cover; /* pour Firefox */
+	-o-background-size: cover; /* pour Opera */
+	background-size: cover; /* version standardisée */
+}
+
+
+/***************** ViewSites *****************/
+
+#tabOfSites {
+	margin: 1%;
+  border: 2px solid #ffffff ;
+	/*border: 2px solid #546e7a;*/
+}
+
+
+#listOfSites {
+	/*Contained by tabOfSites */
+	margin: 1%;
+	color: #01579b;
+}
+
+
+/***************** ViewFeed *****************/
+
+#BoxForRSSNews {
+	/*border: 0.5px solid #37474f;*/
+	background-color: #eceff1;
+	margin: 2%;
+	padding: 1%;
+}
+
+#ParametersForTitles {
+	color: #01579b;
+	font-size: 110%;
+}
+
+#ParametersForDates {
+	text-align: right;
+	font-style: italic;
+}
