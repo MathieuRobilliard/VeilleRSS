@@ -59,6 +59,11 @@
 	opacity: 0.98;
 }
 
+#ButtonInformationsRight {
+	bottom: 1%;
+	right: 1%;
+}
+
 
 /***************** Navbar *****************/
 

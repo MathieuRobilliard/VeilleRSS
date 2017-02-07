@@ -34,23 +34,23 @@ if (isset($_GET['id'])) {
   				print_Sites($tab_sites);
     ?>
           <!-- Modal Trigger -->
-          <a class="waves-effect waves-light btn modal-trigger" href="#modalNewRSS" id="ButtonNew">Ajouter un flux</a>
+          <a class="waves-effect waves-light btn modal-trigger" href="#modalNewRSS" id="ButtonNew">Add a RSS feed</a>
           <!-- Modal Structure -->
           <div id="modalNewRSS" class="modal">
               <form method="post" action="./../View/ViewSites.php?id=<?php echo $idCategory ?>">
                 <div class="modal-content">
-                  <h4>Ajouter un flux RSS</h4>
+                  <h4>Add a RSS feed</h4>
                         <div class="form-group">
-                           <label id="HomePageText" >Nom du flux</label>
+                           <label id="HomePageText" >Choose a name for the feed</label>
                            <input type="text" class="form-control" name="nameRSSFeed" id="HomePageText">
                         </div>
                         <div class="form-group">
-                           <label id="HomePageText">URL du flux</label>
+                           <label id="HomePageText">URL of the website</label>
                            <input type="text" class="form-control" name="newRSS" id="HomePageText">
                         </div>
                 </div>
                 <div class="modal-footer">
-                        <input type="submit" value="Envoyer" class=" modal-action modal-close waves-effect waves-green btn-flat"/>
+                        <input type="submit" value="Follow" class=" modal-action modal-close waves-effect waves-green btn-flat"/>
                 </div>
               </form>
           </div>

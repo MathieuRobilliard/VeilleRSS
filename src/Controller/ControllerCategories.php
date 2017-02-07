@@ -24,7 +24,7 @@ if (isset($_POST['nameCategory'])) {
 				<div class="col s12 m6 l4">
 					<div class="card blue-grey darken-1">
 						<div class="card-action">
-							<a href="#modalNewCategory" id="ButtonNew">Ajouter une catégorie</a>
+							<a href="#modalNewCategory" id="ButtonNew">Add a category</a>
 						</div>
 					</div>
 				</div>
@@ -32,14 +32,14 @@ if (isset($_POST['nameCategory'])) {
 				<div id="modalNewCategory" class="modal">
 						<form method="post" action="./../View/ViewCategories.php">
 							<div class="modal-content">
-								<h4>Ajouter un Catégorie</h4>
+								<h4>Add a category</h4>
 											<div class="form-group">
-												 <label id="HomePageText" >Nom de votre catégorie</label>
+												 <label id="HomePageText" >Name of the category</label>
 												 <input type="text" class="form-control" name="nameCategory" id="HomePageText">
 											</div>
 							</div>
 							<div class="modal-footer">
-											<input type="submit" value="Envoyer" class=" modal-action modal-close waves-effect waves-green btn-flat"/>
+											<input type="submit" value="Create" class=" modal-action modal-close waves-effect waves-green btn-flat"/>
 							</div>
 						</form>
 				</div>
@@ -62,7 +62,7 @@ function print_categories($tab) {
 						<span class="card-title"><?php echo $nameCategory; ?> </span>
 					</div>
 					<div class="card-action">
-						<a href="./../View/ViewSites.php?id=<?php echo $idCategory ?>">Voir les sites de la catégorie</a>
+						<a href="./../View/ViewSites.php?id=<?php echo $idCategory ?>">See all sites for this category</a>
 					</div>
 				</div>
 			</div>
